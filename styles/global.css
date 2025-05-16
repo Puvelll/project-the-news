@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Product */
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+
+    /* Base */
+    --background-color: #0F172A;
+    --stroke-color: #1E293B;
+
+    /* Text */
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1;
+
+    /* Fonts */
+
+    --font-primary: 'Archivo', sans-serif;
+
+    /* Global users */
+    color: var(--text-color-primary);
+    font-family: var(--font-primary);
+}
+
+p{
+    size: 14px;
+    line-height: 160%;
+    font-weight: regular;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.conteiner{
+    padding-inline: 32px;
+}
+
+hr{
+   color: var(--stroke-color); 
+}
