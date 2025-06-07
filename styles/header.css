@@ -1,6 +1,0 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    border-block: 1px solid var(--stroke-color);
-    padding-block: 24px;
-}
